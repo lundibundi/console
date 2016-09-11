@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="Metarhia.AppTheme.Default" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="metarhiaScreenStyle">@style/Metarhia.Control.Default.Screen</item>
+        <item name="metarhiaEditStyle">@style/Metarhia.Control.Default.Edit</item>
+        <item name="metarhiaButtonStyle">@style/Metarhia.Control.Default.Button</item>
+        <item name="metarhiaLabelStyle">@style/Metarhia.Control.Default.Label</item>
+    </style>
+
+    <style name="Metarhia.Control.Default" parent="AppTheme"/>
+
+    <style name="Metarhia.Control.Default.Screen">
+        <item name="android:visible">true</item>
+        <item name="android:enabled">true</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="Metarhia.Control.Default.Edit" parent="android:Widget.DeviceDefault.EditText"></style>
+
+    <style name="Metarhia.Control.Default.Button" parent="android:Widget.DeviceDefault.Button"></style>
+
+    <style name="Metarhia.Control.Default.Label" parent="android:Widget.DeviceDefault.TextView">
+        <!-- To prevent android from clipping text view -->
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Console.iml" filepath="$PROJECT_DIR$/.idea/modules/Console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/J2V8/J2V8.iml" filepath="$PROJECT_DIR$/.idea/modules/J2V8/J2V8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compiler/compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/compiler/compiler.iml" />
+    </modules>
+  </component>
+</project>

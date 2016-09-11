@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MetarhiaController">
+        <attr name="metarhiaEditStyle" format="reference"/>
+        <attr name="metarhiaButtonStyle" format="reference"/>
+        <attr name="metarhiaLabelStyle" format="reference"/>
+        <attr name="metarhiaScreenStyle" format="reference"/>
+    </declare-styleable>
+</resources>

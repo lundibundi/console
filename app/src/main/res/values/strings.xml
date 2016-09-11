@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Console</string>
+    <string name="info_loading_configuration">Loading configuration from server</string>
+
+    <!-- SharedPreferences keys-->
+    <string name="key_server_host">"serverHost</string>
+    <string name="key_server_port">"serverPort</string>
+</resources>
